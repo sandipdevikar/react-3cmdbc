@@ -1,0 +1,33 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.row {
+  display: flex;
+}
+
+.row .content {
+  width: 100%;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+
+
+.row #redIdDiv {
+  background-color: red;
+}
+
+.row #greenIdDiv {
+  background-color: green;
+}
+.row #blueIdDiv {
+  background-color: blue;
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    display: block;
+  }
+}
